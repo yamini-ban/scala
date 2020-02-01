@@ -4,7 +4,7 @@ Q1. Write a program to find Fibonacci series till a given limit using tail recur
 	For example: If limit is 7
 	Output: 0,1,1,2,3,5,8.
 
-Solution is in Fibonacci.scala
+Solution1 is in Fibonacci.scala
 
 Q2. Write a higher order function that takes three parameters with a function to calculate area of
 rectangle, rhombus and parallelogram. Also use string interpolation and pattern matching with
@@ -15,7 +15,8 @@ default case.
 	Output : Area of rectangle is 20
 	Input : area("square",5,4,function)
 	Output : Not defined yet for square.
-Solution is in HigherOrderFunctions.scala
+
+Solution2 is in HigherOrderFunctions.scala
 
 Q3 Using higher order functions, implement:
 sum of squares
@@ -27,4 +28,5 @@ def sum(f: (Int, Int) => Int,a: Int, b:Int): Int
 	Output: 41 (5*5 + 4*4)
 	Input: sum(Ints function, 5 , 4)
 	Output: 9 (5 + 4)
-Solution is in Sum.scala
+
+Solution3 is in Sum.scala
