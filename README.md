@@ -2,7 +2,8 @@
 
 Q1. Write a program to find Fibonacci series till a given limit using tail recursion.
 	For example: If limit is 7
-	Output: 0,1,1,2,3,5,8
+	Output: 0,1,1,2,3,5,8.
+
 Solution is in Fibonacci.scala
 
 Q2. Write a higher order function that takes three parameters with a function to calculate area of
