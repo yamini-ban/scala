@@ -1,5 +1,4 @@
-# scala-assignment-three
-Assignment: Scala Day 3
+# scala-assignment-day-three
 
 Q1. Write a program to find Fibonacci series till a given limit using tail recursion.
 	For example: If limit is 7
