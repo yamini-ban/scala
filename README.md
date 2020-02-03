@@ -27,5 +27,7 @@ Explanation
 
 Constraints
 	1. No vars
+
 	2. No methods with side effects – Unit
+
 	3. No while loops
