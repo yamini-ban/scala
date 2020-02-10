@@ -10,20 +10,20 @@ package edu.knoldus {
     }
   }
 
-  package queues{
+}
+package queues {
+  import edu.knoldus.Queue
 
-    class DoubleQueue(val queue: List[Int]) extends Queue {
-      override def enqueue(queue: List[Int], elementToInsert: Int): List[Int] = {
-        queue ::: List(elementToInsert * 2)
-      }
+  class DoubleQueue(val queue: List[Int]) extends Queue {
+    override def enqueue(queue: List[Int], elementToInsert: Int): List[Int] = {
+      queue ::: List(elementToInsert * 2)
     }
-
-    class SquareQueue(val queue: List[Int]) extends Queue {
-      override def enqueue(queue: List[Int], elementToInsert: Int): List[Int] = {
-        queue ::: List(elementToInsert * elementToInsert)
-      }
-    }
-
   }
 
+  class SquareQueue(val queue: List[Int]) extends Queue {
+    override def enqueue(queue: List[Int], elementToInsert: Int): List[Int] = {
+      queue ::: List(elementToInsert * elementToInsert)
+    }
+  }
 }
+

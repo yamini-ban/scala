@@ -5,7 +5,7 @@ class FirstName(val firstName: String) extends AnyVal {
 }
 
 class LastName(val lastName: String) extends AnyVal {
-  override def toString: String = s"${lastName} is of"
+  override def toString: String = s"${lastName}"
 }
 
 class Age(val age: Int) extends AnyVal {
@@ -13,5 +13,5 @@ class Age(val age: Int) extends AnyVal {
 }
 
 class ValueClassExample {
-  def displayDetails(firstName: FirstName, lastName: LastName, age: Age):String= s"${firstName} ${lastName} ${age}"
+  def displayDetails(firstName: FirstName, lastName: LastName, age: Age):String= s"${firstName} ${lastName} is of ${age}"
 }
